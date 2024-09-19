@@ -1,0 +1,147 @@
+@font-face {
+    font-family: clarendo;
+    src: url(CLARENDO.ttf);
+}
+@font-face {
+    font-family: lemonmilk;
+    src: url(LEMONMILK-Light.otf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.desktop {
+    background-color: #ffffff;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .desktop .overlap-group-wrapper {
+    background-color: #ffffff;
+    overflow: hidden;
+    width: 1400px;
+    height: 645px;
+  }
+  
+  
+  .desktop .overlap-group {
+    position: relative;
+    width: 1493px;
+    height: 842px;
+    top: -18px;
+    left: -32px;
+    background-color: #c71f1f;
+  }
+    
+  #myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
+  
+  .desktop .text-wrapper {
+    position: absolute;
+    top: 58px;
+    left: 91px;
+    font-family: clarendo;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 48px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .desktop .overlap {
+    position: absolute;
+    width: 204px;
+    height: 67px;
+    top: 530px;
+    left: 1100px;
+    background-color: #d9d9d9;
+    border-radius: 37px;
+  }
+  
+  .desktop .div {
+    position: absolute;
+    top: 13px;
+    left: 34px;
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .desktop .text-wrapper-2 {
+    position: absolute;
+    top: 200px;
+    left: 218px;
+    font-family: lemonmilk;
+    font-weight: 300;
+    color: #ffffff;
+    font-size: 150px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .desktop .overlap-2 {
+    position: absolute;
+    width: 600px;
+    height: 195px;
+    top: 500px;
+    left: 32px;
+  }
+  
+  .desktop .element {
+    position: absolute;
+    width: 180px;
+    height: 120px;
+    top: 0;
+    left: 220px;
+    object-fit: cover;
+    border-radius: 37px;
+  }
+  
+  .desktop .element-img {
+        position: absolute;
+        width: 180px;
+        height: 120px;
+        top: 0;
+        left: 420px;
+        object-fit: cover;
+        border-radius: 37px;
+  }
+  
+  .desktop .element-img2 {
+    position: absolute;
+    width: 180px;
+    height: 120px;
+    top: 0;
+    left: 620px;
+    object-fit: cover;
+    border-radius: 37px;
+  }
+  
+  .desktop .element-img3 {
+    position: absolute;
+    width: 180px;
+    height: 120px;
+    top: 0;
+    left: 20px;
+    object-fit: cover;
+    border-radius: 37px;
+  }
+  
+  @media only screen and (max-width: 768px){
+    text-wrapper-2{
+      left: 50px;
+      font-size: 200px;
+    }
+
+  }
